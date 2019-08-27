@@ -28,7 +28,7 @@ fun_features:
     visible: false # true：一直可见，false：鼠标悬停时出现
     icon: "" # 例如：§ | # | ❡ 等，留空则为默认效果
 baidu_analytics:  # 百度统计的Key
-
+google_analytics:
 
 #---------------------------
 # 导航栏
