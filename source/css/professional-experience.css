@@ -1,0 +1,9 @@
+.index-thumbnails {
+    display: block;
+    width: 60%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}

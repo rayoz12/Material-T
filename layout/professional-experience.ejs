@@ -1,0 +1,56 @@
+<%- css('css/professional-experience.css') %>
+
+<%
+page.layout = "professional-experience"
+page.title = "Professional Experience"
+page.subtitle = "Professional Experience"
+page.banner_img = theme.about.banner_img
+page.banner_img_height= theme.about.banner_img_height
+%>
+
+<div class="container">
+    <div class="row mb-4 mx-auto">
+        <a href="/" class="img-fluid rounded z-depth-3 index-thumbnails" style="background-image: url(/assets/img/professional-experience/thales.jpg)"></a>
+    </div>
+    <h3>Thales</h3>
+    I joined thales cos it was a great place!!!!
+    <div>
+        <div class="row mb-4 mx-auto">
+            <span class="col-md-4"><strong>Role: </strong></span>
+            <span class="col-md-8"><strong>Software Engineering Intern</strong></span>
+        </div>
+        <div class="row mb-4 mx-auto">
+            <span class="col-md-4"><strong>Dates: </strong></span>
+            <span class="col-md-8"><strong>Software Engineering Intern</strong></span>
+        </div>
+        <div class="row mb-4 mx-auto">
+            <span class="col-md-4"><strong>Technology: </strong></span>
+            <span class="col-md-8"><strong>Software Engineering Intern</strong></span>
+        </div>
+    </div>
+    <% theme.professional_experiences.each(function (job) { %>
+        <div class="row mb-4 mx-auto">
+            <a href="/" class="img-fluid rounded z-depth-3 index-thumbnails" style="background-image: url(<%- job.logo %>)"></a>
+        </div>
+        <h3><%- job.name %></h3>
+        <div><%- job.description %></div>
+        <div>
+            <div class="row mb-4 mx-auto">
+                <span class="col-md-4"><strong>Role: </strong></span>
+                <span class="col-md-8"><strong><%- job.role %></strong></span>
+            </div>
+            <div class="row mb-4 mx-auto">
+                <span class="col-md-4"><strong>Dates: </strong></span>
+                <span class="col-md-8"><strong><%- job.dates %></strong></span>
+            </div>
+            <div class="row mb-4 mx-auto">
+                <span class="col-md-4"><strong>Technology: </strong></span>
+                <span class="col-md-8"><strong><%- job.tech %></strong></span>
+            </div>
+        </div>
+    <% }) %>    
+</div>
+
+<div class="mt-5 markdown-body">
+    <%- insertProfExp() %>
+</div>

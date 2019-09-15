@@ -39,6 +39,7 @@ navbar:
     Home: /
     Archives: /archives/
     About: /about/
+    "Professional Expereince": /professional-expereince/ 
   blog_title:  # 导航栏左侧的标题，为空则按 hexo config.title 显示
 
 #---------------------------
@@ -132,7 +133,9 @@ about:  # 以下仅为页面顶部的基本信息，更多内容请在 /Material
     "fab fa-github": https://github.com
     "fab fa-twitter": https://twitter.com
 
-
+professional_experiences:
+  - 
+    name: RYan
 #---------------------------
 # 404页
 # 404 Page

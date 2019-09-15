@@ -1,10 +1,10 @@
-const mdPath = 'themes/Material-T/pages/professional_expereince.md';
+const mdPath = 'themes/Material-T/pages/professional-experience.md';
 
 hexo.extend.generator.register('_prof_exp',function(locals){
     return {
-        path: 'professional_expereince/index.html',
+        path: 'professional-experience/index.html',
         data: locals.theme,
-        layout: 'professional_expereince'
+        layout: 'professional-experience'
     };
 });
 
