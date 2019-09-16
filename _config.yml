@@ -134,8 +134,16 @@ about:  # 以下仅为页面顶部的基本信息，更多内容请在 /Material
     "fab fa-twitter": https://twitter.com
 
 professional_experiences:
-  - 
-    name: RYan
+  page:
+    banner_img: /img/about.jpg
+    banner_img_height: 80
+  jobs:
+    - 
+      name: Fill me in
+      description: Your Description
+      role: Role
+      dates: Time
+      tech: Intial D
 #---------------------------
 # 404页
 # 404 Page
