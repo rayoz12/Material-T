@@ -11,7 +11,7 @@ page.banner_img_height= theme.professional_experiences.page.banner_img_height
 <div class="container">
     <% theme.professional_experiences.jobs.forEach(function (job) { %>
         <div class="row mb-4 mx-auto">
-            <a href="/" class="img-fluid rounded z-depth-3 index-thumbnails" style="background-image: url(<%- job.logo %>)"></a>
+            <a href="<%- job.link %>" class="img-fluid rounded z-depth-3 index-thumbnails" style="background-image: url(<%- job.logo %>)"></a>
         </div>
         <h3><%- job.name %></h3>
         <div><%- job.description %></div>
